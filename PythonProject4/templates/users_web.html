@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Здесь представлены все пользователи данного сайта</title>
+</head>
+<body>
+    <nav>
+            <a href="{{ url_for('home') }}">Главная</a> |
+            <a href="{{ url_for('about_me') }}">Про меня</a> |
+            <a href="{{ url_for('survey') }}">Опрос</a>
+            <a href="{{ url_for('users_web') }}">Пользователи</a>
+        </nav>
+    {% if rows %}
+    {% for user in rows %}
+          <h5 class="card-title">{{ user }}</h5>
+</body>
+</html>

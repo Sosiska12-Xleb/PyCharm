@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <title>Опрос, будет интересно почитать твои ответы</title>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('home') }}">Главная</a> |
+        <a href="{{ url_for('about_me') }}">Про меня</a> |
+        <a href="{{ url_for('survey') }}">Опрос</a>
+        <a href="{{ url_for('users_web') }}">Пользователи</a>
+    </nav>
+    <form method="POST">
+
+        <label for="free_time">Чем ты любишь заниматься в свободное время?</label><br>
+        <textarea id="free_time" name="free_time" required></textarea><br>
+
+         <label for="country">Какую страну ты хотел бы посетить?</label><br>
+        <textarea id="country" name="country" required></textarea><br>
+
+         <label for="childhood">Какие ярки моменты детства тебе запомнились больше всего?</label><br>
+        <textarea id="childhood" name="childhood" required></textarea><br>
+
+         <label for="pink_glasses">Что ты предпочетаешь больше всего: жить жизнью не замечая плохого или быть более внимательным к реальности?</label><br>
+        <textarea id="pink_glasses" name="pink_glasses" required></textarea><br>
+        <input type="submit" value="Кликай для отправки">
+    </form>
+</body>
+</html>

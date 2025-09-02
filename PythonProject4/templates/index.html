@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Главная... Это первая страница этого сайта, думаю информация ниже будет интересней.</title>
+</head>
+<body>
+<h1>Привет! Добро пожаловать на мой простой сайт-опросник</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Главная</a> |
+        <a href="{{ url_for('about_me') }}">Про меня</a> |
+        <a href="{{ url_for('survey') }}">Опрос</a>
+        <a href="{{ url_for('users_web') }}">Пользователи</a>
+    </nav>
+    <p>Это мой простой сайт для введения информации о себе, давай для начала узнаю твое имя.</p>
+    <form method="POST">
+
+        <label for="name">Здесь пиши свое имя:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="message">Здесь можешь написать любое сообщение мне, слов "Привет!" будет достаточно:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <input type="submit" value="Кликай для отправки">
+    </form>
+    <p>Если все написал можешь перейти ко вкладке "Про меня", чтобы узнать обо мне, или сразу перейти на вкладку "Опрос".</p>
+</body>
+</html>

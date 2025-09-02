@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>О! Это информация обо мне и сайте, было бы не так интересно перейти к опросу не зная кто я.</title>
+</head>
+<body>
+<nav>
+        <a href="{{ url_for('home') }}">Главная</a> |
+        <a href="{{ url_for('about_me') }}">Про меня</a> |
+        <a href="{{ url_for('survey') }}">Опрос</a>
+        <a href="{{ url_for('users_web') }}">Пользователи</a>
+    </nav>
+      <p>Привет снова, меня зовут Глеб, я студент 1 курса, учусь на специальность программиста. Этот сайт создан мной для выполнения домашней работы и практикования языков Python и HTML.</p>
+</body>
+</html>
