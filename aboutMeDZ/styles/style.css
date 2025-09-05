@@ -1,0 +1,72 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffe8be;
+    text-align: center;
+    font-size: 15px;
+}
+
+header {
+    position: sticky;
+    top: 15px;
+    background-color: rgb(255, 235, 53);
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2 {
+    text-align: center;
+    font-family: franklin gothic medium;
+}
+
+.aboutme {
+    background-color: rgb(138, 208, 255);
+    height: 800px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hobby {
+    background-color: rgb(112, 250, 197);
+    height: 500px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.future {
+    background-color: rgb(234, 128, 255);
+    height: 600px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.infotmation {
+    height: 800px;
+    width: 800px;
+    text-align: center;
+}
+
+.pic {
+    img {width: 50%; height: auto;}
+    text-align: center;
+}
