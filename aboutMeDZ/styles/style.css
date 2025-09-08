@@ -11,9 +11,9 @@ body {
 
 header {
     position: sticky;
-    top: 15px;
+    top: 0px;
     background-color: rgb(255, 235, 53);
-    height: 50px;
+    height: auto;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 40px;
@@ -32,8 +32,8 @@ h2 {
 
 .aboutme {
     background-color: rgb(138, 208, 255);
-    height: 800px;
-    width: 800px;
+    height: auto;
+    width: auto;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 40px;
@@ -42,8 +42,8 @@ h2 {
 
 .hobby {
     background-color: rgb(112, 250, 197);
-    height: 500px;
-    width: 800px;
+    height: auto;
+    width: auto;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 40px;
@@ -52,8 +52,8 @@ h2 {
 
 .future {
     background-color: rgb(234, 128, 255);
-    height: 600px;
-    width: 800px;
+    height: auto;
+    width: auto;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 40px;
@@ -61,8 +61,8 @@ h2 {
 }
 
 .infotmation {
-    height: 800px;
-    width: 800px;
+    height: auto;
+    width: auto;
     text-align: center;
 }
 
