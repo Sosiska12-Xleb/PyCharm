@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Mason';
+	src: url('../fonts/Mason\ Sans.ttf');
+}
+
+body {
+	font-family: 'Mason';
+	line-height: 1.6;
+	padding: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #ffe8be;
+	text-align: center;
+	font-size: 18px;
+}
+
+a {
+	color: inherit;
+}
+
+nav {
+	height: auto;
+	width: auto;
+	padding: 10px;
+	border-radius: 25px;
+	margin-bottom: 40px;
+	margin: 0 45px;
+	margin: 40px;
+	background-color: rgb(132, 118, 255);
+}
+
+nav a {
+	margin: 0 45px;
+}
+
+header {
+	position: sticky;
+	top: 0px;
+	background-color: rgb(255, 235, 53);
+	height: auto;
+	padding: 10px;
+	border-radius: 25px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Mason';
+}
+
+h2 {
+	font-family: 'Mason';
+}
+
+section {
+	height: auto;
+	width: auto;
+	padding: 10px;
+	border-radius: 25px;
+	margin-bottom: 40px;
+}
+
+.blue {
+	background-color: rgb(138, 208, 255);
+	outline: solid 4px rgb(51, 174, 255);
+	column-count: 2;
+	column-rule: 2px solid rgb(51, 174, 255);
+	column-gap: 20px;
+}
+
+.blue p {
+	break-inside: avoid;
+}
+
+.green {
+	background-color: rgb(112, 250, 197);
+	outline: solid 4px rgb(0, 255, 157);
+}
+
+.purple {
+	background-color: rgb(234, 128, 255);
+	outline: solid 4px rgb(221, 53, 255);
+}
+
+.infotmation {
+	text-align: left;
+}
+
+.bronze {
+	color: #99680c;
+	outline: #99680c;
+	margin: 40px;
+}
+
+.silver {
+	color: #c9d7ec;
+	outline: #c9d7ec;
+	margin: 40px;
+}
+
+.gold {
+	color: #f0d435;
+	outline: #f0d435;
+	margin: 40px;
+}
+
+.pic {
+	outline: inherit;
+}
+
+.pic img {
+	max-width: 100%;
+	vertical-align: middle;
+	margin-top: auto;
+}
+
+.width {
+	font-weight: bolder;
+}
+
+dl {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+dt {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+dd {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
