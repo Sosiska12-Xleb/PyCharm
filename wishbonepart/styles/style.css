@@ -1,0 +1,71 @@
+body {
+    font-family: 'PoppinsRegular', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 90px;
+    padding: 20px 0px 20px 32px;
+}
+
+.header-logo {
+    width: 220px;
+    height: 19px;
+}
+
+.header-navigation__list {
+    display: flex;
+    gap: 32px;
+    padding: 13px 0 13px 16px;
+    list-style-type: none;
+}
+
+.header-navigation__list a {
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+.header-navigation__list-item {
+    font-size: 15px;
+    line-height: 12px;
+    letter-spacing: 0;
+}
+
+.header-navigation__list-item:last-child a {
+    color: white;
+    background-color: #1B1A1A;
+    padding: 11px 20px;
+    border-radius: 14px;
+}
+
+.WishbonePartners-container {
+    width: 1200px;
+    height: 720px;
+    padding: 77px 0px 77px 60px;
+    background-color: #ECE7E4;
+    margin: auto;
+}
+
+.Wishbone-img {
+    display: flex;
+    width: 720px;
+    height: 720px;
+    margin-left: auto;
+}
+
+.WishbonePartners-hero {
+    margin-top: auto;
+    width: 600px;
+    height: 566px;
+}
+
+.Wishbone-item-1 {
+    width: 509px;
+    height: 120px;
+}
